@@ -17,7 +17,7 @@
 Файл infiniteSequence.py.
 Допустимый ввод через параметры командой строки:
 * Запуск с параметром n:
-  py infiniteSequence.py n [numbers], где numbers - числа через пробел
+  *py infiniteSequence.py n [numbers]*, где **numbers** - числа через пробел
 * Запуск с параметром f:
-  py infiniteSequence.py f [filename], где filename - имя файла формата чисел идущих через запятую, табуляцию или пробел.
+  *py infiniteSequence.py f [filename]*, где **filename** - имя файла формата чисел идущих через запятую, табуляцию или пробел.
 
