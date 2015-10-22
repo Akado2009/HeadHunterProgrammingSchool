@@ -5,7 +5,7 @@ import re
 #### input_number - заданное число
 def getSequence(input_number):
 	number = ""
-	for i in range(input_number + 1):
+	for i in range(int(input_number) + 1):
 		number += "%i" %i
 	return number
 
@@ -14,7 +14,7 @@ def getSequence(input_number):
 #### input_number - заданное число
 def getIndex(input_number):
 	number = str(input_number)
-	infiniteSequence = getSequence(input_number)
+	infiniteSequence = getSequence(number)
 	m = re.search(number, infiniteSequence)
 	q = m.span()[0]
 	del infiniteSequence
